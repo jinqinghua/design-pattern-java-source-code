@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.example</groupId>
+    <artifactId>design-pattern</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>Chapter 04 Simple Factory</module>
+        <module>Chapter 05 Factory Method</module>
+        <module>Chapter 06 Abstract Factory</module>
+        <module>Chapter 07 Builder</module>
+        <module>Chapter 08 Prototype</module>
+        <module>Chapter 09 Singleton</module>
+        <module>Chapter 10 Adapter</module>
+        <module>Chapter 11 Bridge</module>
+        <module>Chapter 12 Composite</module>
+        <module>Chapter 13 Decorator</module>
+        <module>Chapter 14 Facade</module>
+        <module>Chapter 15 Flyweight</module>
+        <module>Chapter 16 Proxy</module>
+        <module>Chapter 17 CoR</module>
+        <module>Chapter 18 Command</module>
+        <module>Chapter 19 Interpreter</module>
+        <module>Chapter 20 Iterator</module>
+        <module>Chapter 21 Mediator</module>
+        <module>Chapter 22 Memoto</module>
+        <module>Chapter 23 Observer</module>
+        <module>Chapter 24 State</module>
+        <module>Chapter 25 Strategy</module>
+        <module>Chapter 26 Template Method</module>
+        <module>Chapter 27 Visitor</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

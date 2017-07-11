@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<config>
+    <className>chapter11.sample01.White</className>
+    <className>chapter11.sample01.SmallPen</className>
+</config>
