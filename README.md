@@ -8,3 +8,11 @@ Sunny在CSDN技术博客中陆续发表了100多篇与设计模式学习相关�
 下载地址：https://www.gitbook.com/book/quanke/design-pattern-java/
 
 源码下载地址：https://github.com/quanke/design-pattern-java-source-code.git
+
+
+# Improvements
+- Modify code encoding to utf-8
+- Use maven to manager the projects
+- Repackage the chapter codes
+- Format all of the codes
+- All code can run now
