@@ -1,11 +1,11 @@
 package chapter04.sample01;
 
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
 
 public class XMLUtilTV {
     // 该方法用于从XML配置文件中提取品牌名称，并返回该品牌名称

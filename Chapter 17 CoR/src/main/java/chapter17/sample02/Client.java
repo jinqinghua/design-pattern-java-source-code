@@ -4,8 +4,8 @@ public class Client {
     public static void main(String args[]) {
 
         Leader director = new Director("王明", "主管");
-        Leader manager = new Manager("赵强","经理");
-        Leader viceGeneralManager = new ViceGeneralManager("肖红","副总经理");
+        Leader manager = new Manager("赵强", "经理");
+        Leader viceGeneralManager = new ViceGeneralManager("肖红", "副总经理");
         Leader generalManager = new GeneralManager("李波", "总经理");
 
         director.setSuccessor(manager);

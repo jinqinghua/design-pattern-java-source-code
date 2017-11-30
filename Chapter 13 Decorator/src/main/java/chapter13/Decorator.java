@@ -1,7 +1,8 @@
 package chapter13;
 
 abstract class Component {
-    protected void operation() {}
+    protected void operation() {
+    }
 }
 
 

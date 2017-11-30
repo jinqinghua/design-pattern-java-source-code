@@ -1,13 +1,7 @@
 package chapter23.sample02;
 
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.GridLayout;
-
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
+import javax.swing.*;
+import java.awt.*;
 
 public class LoginValidatorB extends JFrame implements LoginEventListener {
     private JPanel p;

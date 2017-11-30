@@ -3,7 +3,8 @@ package chapter09.sample02;
 public class PrintSpoolerSingleton {
     private static PrintSpoolerSingleton instance = null;
 
-    private PrintSpoolerSingleton() {}
+    private PrintSpoolerSingleton() {
+    }
 
     public static PrintSpoolerSingleton getInstance() throws PrintSpoolerException {
         if (instance == null) {

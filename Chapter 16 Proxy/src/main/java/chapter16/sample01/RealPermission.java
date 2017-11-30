@@ -8,7 +8,8 @@ public class RealPermission implements AbstractPermission {
     }
 
     @Override
-    public void viewNote() {}
+    public void viewNote() {
+    }
 
     @Override
     public void publishNote() {
@@ -21,5 +22,6 @@ public class RealPermission implements AbstractPermission {
     }
 
     @Override
-    public void setLevel(int level) {}
+    public void setLevel(int level) {
+    }
 }

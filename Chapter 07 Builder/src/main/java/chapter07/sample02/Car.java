@@ -42,7 +42,8 @@ public class Car {
 class Engine {
     private String brand;
 
-    public Engine() {}
+    public Engine() {
+    }
 
     public Engine(String brand) {
         this.setBrand(brand);
@@ -62,7 +63,8 @@ class Engine {
 class Wheel {
     private String brand;
 
-    public Wheel() {}
+    public Wheel() {
+    }
 
     public Wheel(String brand) {
         this.setBrand(brand);

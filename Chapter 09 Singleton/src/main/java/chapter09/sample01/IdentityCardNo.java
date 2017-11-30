@@ -4,7 +4,8 @@ public class IdentityCardNo {
     private static IdentityCardNo instance = null;
     private String no;
 
-    private IdentityCardNo() {}
+    private IdentityCardNo() {
+    }
 
     public static IdentityCardNo getInstance() {
         if (instance == null) {

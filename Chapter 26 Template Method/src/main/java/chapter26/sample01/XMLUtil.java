@@ -1,11 +1,11 @@
 package chapter26.sample01;
 
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
 
 public class XMLUtil {
     // 该方法用于从XML配置文件中提取具体类类名，并返回一个实例对象
