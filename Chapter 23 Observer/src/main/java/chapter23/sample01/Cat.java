@@ -6,8 +6,8 @@ public class Cat extends MySubject {
         System.out.println("猫叫！");
         System.out.println("----------------------------");
 
-        for (Object obs : observers) {
-            ((MyObserver) obs).response();
+        for (MyObserver observer : observers) {
+            observer.response();
         }
 
     }
