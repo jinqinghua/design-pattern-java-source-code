@@ -26,7 +26,7 @@ public class DESEncrypt {
             for (int i = 0; i < keyByte.length; i++) {
                 System.out.print(keyByte[i] + ",");
             }
-            System.out.println("");
+            System.out.println();
             // 创建密码器
             Cipher cp = Cipher.getInstance(cipherType);
             // 初始化密码器
@@ -37,17 +37,17 @@ public class DESEncrypt {
             for (int i = 0; i < codeStringByte.length; i++) {
                 System.out.print(codeStringByte[i] + ",");
             }
-            System.out.println("");
+            System.out.println();
             // 开始加密
             byte[] codeStringByteEnd = cp.doFinal(codeStringByte);
             System.out.println("加密后的字符串对应的字节码是：");
             for (int i = 0; i < codeStringByteEnd.length; i++) {
                 System.out.print(codeStringByteEnd[i] + ",");
             }
-            System.out.println("");
+            System.out.println();
             codeStringEnd = new String(codeStringByteEnd);
             System.out.println("加密后的字符串是：" + codeStringEnd);
-            System.out.println("");
+            System.out.println();
             // 重新初始化密码器
             cp.init(Cipher.DECRYPT_MODE, key);
             // 开始解密
@@ -56,10 +56,10 @@ public class DESEncrypt {
             for (int i = 0; i < decodeStringByteEnd.length; i++) {
                 System.out.print(decodeStringByteEnd[i] + ",");
             }
-            System.out.println("");
+            System.out.println();
             decodeString = new String(decodeStringByteEnd);
             System.out.println("解密后的字符串是：" + decodeString);
-            System.out.println("");
+            System.out.println();
         } catch (Exception e) {
             e.printStackTrace();
         }

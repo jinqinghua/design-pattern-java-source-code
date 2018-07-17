@@ -3,7 +3,7 @@ package chapter10.sample01;
 
 // Target
 public interface Robot {
-    public void cry();
+    void cry();
 
-    public void move();
+    void move();
 }

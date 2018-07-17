@@ -3,9 +3,9 @@ package chapter08.sample03;
 import java.util.Hashtable;
 
 interface MyColor extends Cloneable {
-    public Object clone();
+    Object clone();
 
-    public void display();
+    void display();
 }
 
 

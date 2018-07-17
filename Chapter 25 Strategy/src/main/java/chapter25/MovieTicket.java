@@ -30,7 +30,7 @@ public class MovieTicket {
 
 // 折扣类：抽象策略类
 interface Discount {
-    public double calculate(double price);
+    double calculate(double price);
 }
 
 

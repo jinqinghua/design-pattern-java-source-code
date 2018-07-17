@@ -12,7 +12,7 @@ class Switch {
     }
 
     public void setState(State state) {
-        this.state = state;
+        Switch.state = state;
     }
 
     public void on() {

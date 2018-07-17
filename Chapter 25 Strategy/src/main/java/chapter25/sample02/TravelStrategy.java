@@ -1,7 +1,7 @@
 package chapter25.sample02;
 
 interface TravelStrategy {
-    public void travelMethod();
+    void travelMethod();
 }
 
 

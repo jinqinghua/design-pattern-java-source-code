@@ -1,7 +1,7 @@
 package chapter06.sample01;
 
 public interface EFactory {
-    public Television produceTelevision();
+    Television produceTelevision();
 
-    public AirConditioner produceAirConditioner();
+    AirConditioner produceAirConditioner();
 }

@@ -1,7 +1,7 @@
 package chapter15.sample02;
 
 public interface NetworkDevice {
-    public String getType();
+    String getType();
 
-    public void use(Port port);
+    void use(Port port);
 }

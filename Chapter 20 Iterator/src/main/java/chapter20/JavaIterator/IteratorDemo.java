@@ -10,7 +10,7 @@ public class IteratorDemo {
         Iterator<String> i = c.iterator();
 
         while (i.hasNext()) {
-            System.out.println(i.next().toString());
+            System.out.println(i.next());
         }
     }
 

@@ -9,7 +9,7 @@ public class Email implements Serializable {
         this.attachment = new Attachment();
     }
 
-    public Object deepClone() throws IOException, ClassNotFoundException, OptionalDataException {
+    public Object deepClone() throws IOException, ClassNotFoundException {
         // 将对象写入流中
         ByteArrayOutputStream bao = new ByteArrayOutputStream();
         ObjectOutputStream oos = new ObjectOutputStream(bao);

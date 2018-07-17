@@ -23,6 +23,6 @@ public class Client {
         plate3.add(plate2);
         plate3.add(obj5);
 
-        plate1.eat();
+        plate3.eat();
     }
 }

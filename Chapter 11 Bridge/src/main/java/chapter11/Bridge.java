@@ -6,7 +6,7 @@ public class Bridge {
 
 
 interface Implementor {
-    public void operationImpl();
+    void operationImpl();
 }
 
 
