@@ -6,13 +6,13 @@ package chapter09.all;
 public class ThreadSafeSingleton {
 
     //类加载时就初始化
-    private static final ThreadSafeSingleton instance = new ThreadSafeSingleton();
+    private static final ThreadSafeSingleton INSTANCE = new ThreadSafeSingleton();
 
     private ThreadSafeSingleton() {
     }
 
     public static ThreadSafeSingleton getInstance() {
-        return instance;
+        return INSTANCE;
     }
 
 }

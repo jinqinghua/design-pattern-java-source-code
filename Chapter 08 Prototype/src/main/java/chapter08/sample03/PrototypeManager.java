@@ -21,6 +21,7 @@ class Red implements MyColor {
         return r;
     }
 
+    @Override
     public void display() {
         System.out.println("This is Red!");
     }
@@ -39,6 +40,7 @@ class Blue implements MyColor {
         return b;
     }
 
+    @Override
     public void display() {
         System.out.println("This is Blue!");
     }

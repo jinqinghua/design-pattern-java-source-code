@@ -2,6 +2,7 @@ package chapter10.sample03;
 
 public class Client extends WindowAdapter {
 
+    @Override
     public void windowClosing(WindowEvent e) {
         System.out.println("Window Closing.");
     }

@@ -11,8 +11,9 @@ public class InsertionSort implements Sort {
                 if (arr[j - 1] > temp) {
                     arr[j] = arr[j - 1];
 
-                } else
+                } else {
                     break;
+                }
             }
             arr[j] = temp;
         }

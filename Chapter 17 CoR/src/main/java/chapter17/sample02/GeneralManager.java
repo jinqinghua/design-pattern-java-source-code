@@ -6,6 +6,7 @@ public class GeneralManager extends Leader {
         super(name, title, 30);
     }
 
+    @Override
     public void handleRequest(LeaveRequest request) {
         System.out.printf("请假单提交给%s%s审批。\n", this.title, this.name);
         if (request.getLeaveDays() <= this.allowLeaveDays) {

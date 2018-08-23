@@ -8,17 +8,21 @@ public final class Caesar {
             char c = ps.charAt(i);
             if (c >= 'a' && c <= 'z') {
                 c += key % 26;
-                if (c > 'z')
+                if (c > 'z') {
                     c -= 26;
-                if (c < 'a')
+                }
+                if (c < 'a') {
                     c += 26;
+                }
             }
             if (c >= 'A' && c <= 'Z') {
                 c += key % 26;
-                if (c > 'Z')
+                if (c > 'Z') {
                     c -= 26;
-                if (c < 'A')
+                }
+                if (c < 'A') {
                     c += 26;
+                }
             }
             es += c;
         }

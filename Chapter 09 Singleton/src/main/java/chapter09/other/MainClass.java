@@ -29,6 +29,7 @@ public class MainClass extends JFrame {
     }
 
     class BtListener implements ActionListener {
+        @Override
         public void actionPerformed(ActionEvent e) {
             if (iFrame != null) {
                 desktopPane.remove(iFrame);
